@@ -5,7 +5,7 @@ const debug = require('debug')(process.env.DEBUG)
 
 app.get('/', (req, res) => {
 	debug('Default API working')
-	res.send('Hello World!')
+	res.send('Study Together!')
 })
 
 app.listen(process.env.PORT, () => {

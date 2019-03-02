@@ -15,7 +15,7 @@
 		"node",
 		"react",
 		"express",
-		"postgres"
+		"mongodb"
 	],
 	"author": "Maksym Kulibaba",
 	"license": "ISC",
