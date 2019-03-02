@@ -4,7 +4,7 @@
 	"description": "Find mentors, teachers and partners for co-education",
 	"main": "index.js",
 	"scripts": {
-		"start": "pm2 start index.js --watch",
+		"start": "nodemon index.js",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
@@ -25,6 +25,7 @@
 	"homepage": "https://github.com/maksmandev/study-together#readme",
 	"dependencies": {
 		"debug": "^4.1.1",
+		"dotenv": "^6.2.0",
 		"express": "^4.16.4"
 	},
 	"devDependencies": {
