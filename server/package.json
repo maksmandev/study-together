@@ -1,0 +1,28 @@
+{
+  "name": "study-together",
+  "version": "1.0.0",
+  "description": "Find mentors, teachers and partners for co-education",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maksmandev/study-together.git"
+  },
+  "keywords": [
+    "node",
+    "react",
+    "express",
+    "postgres"
+  ],
+  "author": "Maksym Kulibaba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maksmandev/study-together/issues"
+  },
+  "homepage": "https://github.com/maksmandev/study-together#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
