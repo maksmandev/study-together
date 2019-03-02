@@ -2,10 +2,9 @@ require('dotenv').config()
 const express = require('express')
 const app = express()
 const debug = require('debug')(process.env.DEBUG)
-const { connect } = require('./db/connection')
-const db = connect()
+const { connectToDB } = require('./db/connection')
 
-module.exports = { db }
+connectToDB()
 
 app.get('/', (req, res) => {
 	debug('Default API working')
