@@ -3,9 +3,11 @@ const express = require('express')
 const app = express()
 const debug = require('debug')(process.env.DEBUG)
 const { connectToDB } = require('./db/connection')
+const routes = require('./routes')
 
 connectToDB()
 
+app.use(routes)
 app.get('/', (req, res) => {
 	debug('Default API working')
 	res.send('Study Together!')
