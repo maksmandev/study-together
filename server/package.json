@@ -4,7 +4,7 @@
 	"description": "Find mentors, teachers and partners for co-education",
 	"main": "index.js",
 	"scripts": {
-		"start": "node index.js",
+		"start": "pm2 start index.js --watch",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
