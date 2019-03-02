@@ -24,6 +24,7 @@
 	},
 	"homepage": "https://github.com/maksmandev/study-together#readme",
 	"dependencies": {
+		"debug": "^4.1.1",
 		"express": "^4.16.4"
 	},
 	"devDependencies": {
